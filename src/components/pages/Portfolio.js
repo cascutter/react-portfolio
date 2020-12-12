@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 import { Container, Col, Row } from "react-bootstrap";
+import "../ProjectData";
 
 const Portfolio = () => (
     <Container id="portfolio" className="container">
@@ -8,18 +9,18 @@ const Portfolio = () => (
                 <div className="col-sm-12">
                 <Col>
                     <section>
-                        <h1>Portfolio</h1>
+                        <h1 style={{ fontSize: 75 }}>Portfolio</h1>
                     </section>
                 </Col>  
                 </div>
             </Row>
             <Container className="container" id="portfolioCards">
-                <Row className="col-sm-12">
+                <div className="col-sm-12">
                     <section>
-                        <h3>Collaborative Projects</h3>
+                        <h3 style={{ textAlign: "center" }}>Collaborative Projects</h3>
                     </section>
-                </Row>
-                <div className="card" style="width: 18rem;">
+                </div>
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/Night In.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Night In</h5>
@@ -29,7 +30,7 @@ const Portfolio = () => (
                         <a href="https://cascutter.github.io/Project-1-Night-In/" target="_blank" className="btn btn-outline-dark">Deployed</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/AudioFiler.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">AudioFiler</h5>
@@ -41,10 +42,10 @@ const Portfolio = () => (
                 </div>
                 <div className="col-sm-12">
                     <section>
-                        <h3>Independent Projects</h3>
+                        <h3 style={{ textAlign: "center" }}>Independent Projects</h3>
                     </section>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/Eat-Da-Burger.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Eat Da Burger!</h5>
@@ -54,7 +55,7 @@ const Portfolio = () => (
                         <a href="https://pure-lake-63894.herokuapp.com/" target="_blank" className="btn btn-outline-dark">Deployed</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/FlexImage1.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Team Template Engine</h5>
@@ -63,7 +64,7 @@ const Portfolio = () => (
                         <a href="https://github.com/cascutter/Homework-10-Template-Engine" target="_blank" className="btn btn-outline-dark">Github</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/View Employees.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Employee Management System</h5>
@@ -72,7 +73,7 @@ const Portfolio = () => (
                         <a href="https://github.com/cascutter/MySQL-Employee-Tracker" target="_blank" className="btn btn-outline-dark">Github</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/README-gen.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">README Generator</h5>
@@ -81,7 +82,7 @@ const Portfolio = () => (
                         <a href="https://github.com/cascutter/Homework-9-README-Generator" target="_blank" className="btn btn-outline-dark">Github</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/Day Planner.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Day Planner</h5>
@@ -91,7 +92,7 @@ const Portfolio = () => (
                         <a href="https://cascutter.github.io/Homework-5-Day-Planner/" target="_blank" className="btn btn-outline-dark">Deployed</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/Weather Dash.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Weather Dashboard</h5>
@@ -101,7 +102,7 @@ const Portfolio = () => (
                         <a href="https://cascutter.github.io/Homework-6-Weather-Dashboard/" target="_blank" className="btn btn-outline-dark">Deployed</a>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
+                <div className="card" style={{ width: 350 }}>
                     <img className="card-img-top" src="assets/Password Generator.png" alt="Card image cap"></img>
                     <div className="card-body">
                         <h5 className="card-title">Password Generator</h5>
