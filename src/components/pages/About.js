@@ -8,33 +8,38 @@ const About = () => (
             <div className="name">
                 <Row className="row">
                     <div className="col-md-6">
-                        <Col>
                         <section>
                             <h1 style={{ fontSize: 75 }}>My name is Casandra Cutter</h1>
                             <p> Full Stack Web Development student at the 
                                 University of Texas San Antonio || Projected 
                                 graduation January 2021
                             </p>
-                            </section>
+                        </section>
                             <button type="button" className="btn btn-outline-light" id="resumeBtn"><a href="../assets/Casandra Cutter Resume (3).pdf"
                             target="_blank" id="resume"><i className="far fa-file-pdf"></i> Check Out My Resume</a></button>
-                        </Col>
                     </div>
                     <div className="col-md">
-                        <Col>
                         <div className="image-cropper">
                         <img src="../assets/ACS_0204.JPG" alt="Casandra Cutter" id="img-me">
                         </img>
                         </div>
-                        </Col>
                     </div>
                 </Row>
             </div>
             <Row className="row">
                 <Col>
-                <div className="col-md-4"></div>
+                <div className="col-md">
+                <div className="icons">
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/html5.png" alt="html5 icon" id="html5"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/css3.png" alt="css3 icon" id="css3"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/javascript.png" alt="javascript icon" id="javascript"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/jquery.png" alt="jquery icon" id="jquery"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/mongodb.png" alt="mongodb icon" id="mongodb"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/node.png" alt="node icon" id="node"></img>
+                                <img style={{ width: 100 , marginTop: 50, marginRight: 25 }} src="../assets/icons/react.png" alt="react icon" id="react"></img>
+                            </div>
+                </div>
                 </Col>
-                <Col>
                 <div className="col-md">
                     <section>
                         <p style={{ textAlign: "center", marginTop: 50, marginRight: 50 }}>
@@ -44,7 +49,6 @@ const About = () => (
                         </p>
                     </section>
                 </div>
-                </Col>
             </Row>
         </Container>
     );
