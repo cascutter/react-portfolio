@@ -17,6 +17,7 @@ body {
     font-family: 'Montserrat Subrayada', sans-serif;
     font-weight: 400;
 }
+
 /* Body styling */
 
 h1 {
@@ -177,7 +178,7 @@ textarea {
     background-color: whitesmoke;
 }
 
-.list-inline {
+.list-inline-item {
     display: inline;
 }
 /* Media queries for screen size changes */
