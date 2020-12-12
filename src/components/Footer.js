@@ -1,20 +1,19 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import "./styles/style.css";
 
 function Footer() {
     return (
     <footer>
-        <div class="footer">
-            <nav class="navbar navbar-light bg-light">
-                <ul class="navbar-nav list-inline">
-                    <li class="nav-item"> Find me on:
+        <div className="footer">
+            <nav className="navbar navbar-light bg-light">
+                <ul className="navbar-nav list-inline">
+                    <li className="nav-item" style={{ fontSize: 25 }}> Find me on:
                     </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" href="https://linkedin.com/in/casandra-cutter-ab7a361a9" target="_blank">LinkedIn</a>
-                    </li>
-                    <li class="nav-item list-inline-item">
-                        <a class="nav-link" href="https://github.com/cascutter" target="_blank">GitHub</a>
-                    </li>
+                    <Row style={{ alignSelf: "center" }}>
+                        <a style={{ margin: 10 }} className="nav-link" href="https://linkedin.com/in/casandra-cutter-ab7a361a9" target="_blank"><img style={{ width: 50 }} src="../assets/icons/linkedin.png"></img></a>
+                        <a style={{ margin: 10 }} className="nav-link" href="https://github.com/cascutter" target="_blank"><img style={{ width: 50 }} src="../assets/icons/github.png"></img></a>
+                    </Row>
                 </ul>
             </nav>
         </div>
